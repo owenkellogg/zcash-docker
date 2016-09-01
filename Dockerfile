@@ -19,5 +19,5 @@ RUN cp /root/.zcash-params/regtest/* /root/.zcash-params/
 
 COPY zcash.conf /root/.zcash/zcash.conf
 
-CMD ['/opt/zcash/src/zcashd']
+CMD ["./src/zcashd"]
 
